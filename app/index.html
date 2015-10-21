@@ -76,9 +76,9 @@
 
         var N = Math.random() * 25;
 
-        //think of function to randomize or toggle fog for each element.(On prerender.. found out
-        // its not possible to do this live, because shadows it becomes too heavy on cpu. 
-        // must randomize before render.) 
+        // Thought about using a function to randomize or toggle fog for each element.
+        // (On prerender.. found out its not possible to do this live, because shadows 
+        // it becomes too heavy on cpu. Must randomize before render.) 
         
         //var fogBool = true
 
@@ -255,19 +255,19 @@
             window.addEventListener("mousedown", onMouseDown, false );
             window.addEventListener("mouseup", onMouseUp, false );
         }
-        //black button function
+        //black button function // gravity toggle
         function gravityChange(countNum) {
                 
                 countNum = gravityCount;
               
                  if (gravityCount % 2===0) {
-                    world.gravity.set(0,0.3,0);
+                    world.gravity.set(0,0.3,0); // Calibrating the middle argument will change the speed at wich the cubes float up.
                     gravityCount = (gravityCount) +1;
                     console.log(gravityCount);
                  }
                  else {
                     //console.log(count.toString);
-                    world.gravity.set(0,-9.8,0);
+                    world.gravity.set(0,-9.8,0); //regular earth gravity.
                     gravityCount = (gravityCount) +1;
                     console.log(gravityCount);
 
@@ -280,12 +280,9 @@
             world = new CANNON.World();
             world.quatNormalizeSkip = 0;
             world.quatNormalizeFast = false;
-
-
+            
             //gravityChange(count);
             world.gravity.set(0.01,0.01,0.01);
-
-
             world.broadphase = new CANNON.NaiveBroadphase();
 
             // Create boxes
@@ -463,6 +460,8 @@
                 meshes[i].quaternion.copy(bodies[i].quaternion);
             }
         }
+
+                    // Enable the following code to add a timer to the program.
 
     //     function countdown( elementName, minutes, seconds )
     //                                                         {
