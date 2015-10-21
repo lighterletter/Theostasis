@@ -42,12 +42,12 @@ I've written it in the code. Feel free to ask questions.
 
 ## Screenshots
 
-[logo]: https://github.com/lighterletter/Theostasis/blob/master/screenShots/Theostasis_ScreenShot_1.png 
-[logo]: https://github.com/lighterletter/Theostasis/blob/master/screenShots/Theostasis_ScreenShot_2.png 
-[logo]: https://github.com/lighterletter/Theostasis/blob/master/screenShots/Theostasis_ScreenShot_3.png 
-[logo]: https://github.com/lighterletter/Theostasis/blob/master/screenShots/Theostasis_ScreenShot_4.png 
-[logo]: https://github.com/lighterletter/Theostasis/blob/master/screenShots/Theostasis_ScreenShot_5.png 
-[logo]: https://github.com/lighterletter/Theostasis/blob/master/screenShots/Theostasis_ScreenShot_6.png 
+<img src=https://github.com/lighterletter/Theostasis/blob/master/screenShots/Theostasis_ScreenShot_1.png >
+<img src=https://github.com/lighterletter/Theostasis/blob/master/screenShots/Theostasis_ScreenShot_2.png >
+<img src=https://github.com/lighterletter/Theostasis/blob/master/screenShots/Theostasis_ScreenShot_3.png >
+<img src=https://github.com/lighterletter/Theostasis/blob/master/screenShots/Theostasis_ScreenShot_4.png >
+<img src=https://github.com/lighterletter/Theostasis/blob/master/screenShots/Theostasis_ScreenShot_5.png >
+<img src=https://github.com/lighterletter/Theostasis/blob/master/screenShots/Theostasis_ScreenShot_6.png >
 
 
 ## Notes
