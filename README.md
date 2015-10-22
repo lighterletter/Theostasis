@@ -22,7 +22,7 @@ Unless you know how to set up your own server, use a program like **MAMP** that 
 
 For MAMP, Installation is simple. 
 
-	Open your MAMP folder and drop Theostasis into **htdocs**. 
+	Open your MAMP folder and drop Theostasis into 'htdocs'. 
 	Make sure your server is running by opening MAMP as an application and clicking start on the server. Then 		simply go into your browser (I recommend google Chrome) and type localhost:8888 on the address bar(default 	MAMP port). You should then see a link with the application name on it. Click that and you're done. Enjoy.
 
 ## Code 
