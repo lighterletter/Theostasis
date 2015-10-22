@@ -22,22 +22,28 @@ Unless you know how to set up your own server, use a program like **MAMP** that 
 
 For MAMP, Installation is simple. 
 
+	Drop theostasis into:  Mamp/htdocs/ 
+	Start your server. 
+	In your browser, type: Localhost:8888
+	Click on the 'theostasis' link, and if necessary, 'app', that should start the application in your browser. 
+	
+Detailed:
 	Open your MAMP folder and drop Theostasis into 'htdocs'. 
-	Make sure your server is running by opening MAMP as an application and clicking start on the server. Then 		simply go into your browser (I recommend google Chrome) and type localhost:8888 on the address bar(default 	MAMP port). You should then see a link with the application name on it. Click that and you're done. Enjoy.
+	Make sure your server is running by opening MAMP as an application and clicking start on the server. Then 		simply go into your browser (I recommend google Chrome) and type localhost:8888 on the address bar(port 		8888 is the default MAMP port. You can verify this on the MAMP home page which should open when you 		open the application.) In your localhost you should see a link with the theostasis application name on it. 		Click that and you're done. Enjoy.
 
 ## Code 
 
 All libraries are wired in 
 **index.html** 
 
-With a text editor like SublimeText there are a couple of simple ways in which you can customize your experience.
-I've written it in the code. Feel free to ask questions.
+ There are a couple of simple ways in which you can customize your experience with a text editor, like SublimeText.
+ I've noted it in the code. Feel free to ask questions.
 
 #### Some interesting things to try: 
 	*Change gravity's effect on the cubes. 
-	*I've added and commented out a timer which you can turn on by simply un-commenting the denoted section.
+	*A timer which you can turn on by simply un-commenting the denoted section. 
 	*Different lighting and fog parameters.
-	*Changing the values for the Sphere's wireframes can create some interesting effects.  
+	*Changing the values for the Sphere's wireframes can also create some interesting effects.  
 
 
 ## Screenshots
