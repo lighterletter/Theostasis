@@ -11,9 +11,9 @@ The application can be mounted to a single touch display as a piece of interacti
 
 ## Instructions
 
-	*Click and hold to drag the boxes
-	*Use the black button to toggle the gravity. 
-	*Use the white button to reset the canvas.
+	Click and hold to drag the boxes
+	Use the black button to toggle the gravity. 
+	Use the white button to reset the canvas.
  
 
 ## Set-UP
@@ -40,10 +40,10 @@ All libraries are wired in
  I've noted it in the code. Feel free to ask questions.
 
 #### Some interesting things to try: 
-	*Change gravity's effect on the cubes. 
-	*A timer which you can turn on by simply un-commenting the denoted section. 
-	*Different lighting and fog parameters.
-	*Changing the values for the Sphere's wireframes can also create some interesting effects.  
+	Change gravity's effect on the cubes. 
+	A timer which you can turn on by simply un-commenting the denoted section. 
+	Different lighting and fog parameters.
+	Changing the values for the Sphere's wireframes can also create some interesting effects.  
 
 
 ## Screenshots
