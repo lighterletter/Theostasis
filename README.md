@@ -11,9 +11,9 @@ The application can be mounted to a single touch display as a piece of interacti
 
 ## Instructions
 
-*Click and hold to drag the boxes
-*Use the black button to toggle the gravity. 
-*Use the white button to reset the canvas.
+	*Click and hold to drag the boxes
+	*Use the black button to toggle the gravity. 
+	*Use the white button to reset the canvas.
  
 
 ## Set-UP
